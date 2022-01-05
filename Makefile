@@ -17,8 +17,7 @@ CPPFLAGS = -Iinclude/
 
 LIB = -L ./lib/ -lmy -lm
 
-## LDFLAGS = -lcsfml-graphics -lcsfml-window -lcsfml-system -lcsfml-audio
-LDFLAGS = -I ./CSFML/include -L./lib/my -L ./CSFML/lib/gcc -lmy -lcsfml-graphics -lcsfml-system -lcsfml-window
+LDFLAGS = -lcsfml-graphics -lcsfml-window -lcsfml-system -lcsfml-audio
 
 SRC	= $(wildcard ./src/*.c)
 
